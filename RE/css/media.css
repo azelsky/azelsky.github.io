@@ -1,0 +1,224 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.main-mnu{
+		display: none
+	}
+	.menu button{
+		display: block;
+	}
+	.welcom_p{
+		width: 50%!important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.shortStoryContainer_img{
+		display: none;
+	}
+	section.shortStory .shortStoryContainer .shortStoryText{
+		width: 94%
+		margin-right: 3%;
+		padding-top: 1px;
+
+	}
+	.shortStoryText h3{
+		text-align: center;
+		margin-top: 50px!important
+	}
+	.shortStoryText p, .shortStoryText h3{
+		margin-right: 5%!important;
+		margin-left: 5%!important;
+	}
+	.chefBloksImage
+	{
+		display: none;
+	}
+	.chefBloksTextBox {
+	}
+	.chefBloksTextBox .button{
+		margin-bottom: 20px;
+		display: block;
+	}
+	section.gallery .five {
+		height: 365px;
+	}
+	section.contactUs form input{
+		width: 100%
+	}
+	footer .logo{
+		background-size: 200px
+	}
+	footer .logo h3{
+		font-size: 35px;
+	}
+	footer .logo p{
+		font-size: 10px;
+	}
+	/*footer .textBlock p{
+		text-align: center;
+	}*/
+
+}
+
+@media only screen and (max-width : 991px) {
+	section.services .right .number{
+		right: calc(50% - 50px)
+	}
+}
+
+@media only screen and (max-width : 860px) {
+	.header_img .text{
+		font-size: 40px
+	}
+	
+}
+@media only screen and (min-width : 768px) {
+	nav ul{
+		display: block;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.welcom_p{
+		width: 70%!important;
+	}
+	.wrap_services{
+		margin: 0 10px;
+	}
+	header{
+		height: 350px
+	}
+
+
+	/*menu*/
+	nav .toggle{
+		display: block;
+	}
+	nav ul{
+		display: none
+
+
+	}
+	header ul
+	{
+		padding-left: 15px;
+
+	}
+	nav  ul li{
+		display: block;
+		padding: 10px;
+	}
+	.active{
+		display: block;
+	}
+	header .header_items{
+		font-size: 8px;
+	}
+
+	header .price{
+		position: absolute;
+		right: 10px
+	}
+	header .container .contact{
+		float: left;
+		text-align: left;
+		padding-left: 0;
+	}
+	.shortStory .button{
+		top: 10px
+	}
+
+
+}
+
+@media only screen and (max-width : 510px) {
+	.welcom_p{
+		width: 90%!important;
+	}
+	section.testimionials .owl-carousel .review_item h4{
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	section.shortStory .shortStoryContainer .shortStoryText{
+		
+	}
+}
+@media only screen and (max-width : 400px) {
+	.welcom_p{
+		width: 100%!important;
+	}
+	.welcPhoto .photo{
+			height: 350px!important;
+	}
+	section.shortStory .shortStoryContainer .shortStoryText{
+		
+	}
+	
+}
+@media only screen and (max-width : 360px) {
+	.welcom_p{
+		width: 100%!important;
+		font-size: 25px!important;
+	}
+	.catering{
+		font-size: 11px!important
+	}
+	.wrap_text{
+		background-size: 240px auto!important
+	}
+	section.shortStory .shortStoryContainer .shortStoryText{
+		height: 570px
+	}
+	section.ourMenu .wrap_text{
+		margin-top: 290px
+	}
+}
+/* Extra Small Devices, Phones */
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 340px) {
+		.header_img .text{
+		font-size: 30px
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+.cd-modal-content{
+	color: white;
+	z-index: 
+}
+

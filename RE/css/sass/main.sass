@@ -1,0 +1,917 @@
+@import "bourbon/bourbon"
+@import url('https://fonts.googleapis.com/css?family=Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+$text-color: #808369
+$text-active: #f58369
+body
+	font-family: 'PtSerif', 'sains-serif'
+	font-family: "Raleway", sans-serif
+	font-weight: normal
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.42857
+	-webkit-font-smoothing: antialised
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+body
+	font-family: 'PT Serif', serif;
+
+.hidden
+	display: none
+a
+	border-bottom: 0px solid $text-active
+	color: $text-color
+	padding-bottom: 15px
+
+	&:active, &:focus
+		text-decoration: none
+		color: $text-active
+	&:hover
+		padding-bottom: 2px
+		text-decoration: none
+		border-bottom: 1px solid $text-active
+		transition: 0.35s ease-out
+.button
+	background-color: #ffb18b
+	height: 60px
+	width: 240px
+	font-weight: bold
+	text-transform: uppercase
+	color: white
+	font-size: 14px
+	border: none
+	transition: 0.35s ease-out
+	&:hover
+		background-color: #F4996D
+		transition: 0.35s ease-out
+
+.button_white
+	width: 120px
+	height: 45px
+	border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	text-transform: uppercase
+	background-color: white
+	text-align: center
+	color: #c2c3b9
+	border: none
+	text-align: center
+	line-height: 76px
+.button_white_top
+	width: 170px
+	height: 55px
+	border-radius: 0 0 50% 50% / 0 0 100% 100%;
+	text-transform: uppercase
+	background-color: white
+	text-align: center
+	color: #c2c3b9
+	border: none
+	text-align: center
+	line-height: 76px
+
+
+.bottom_hed
+	background-color: #fff
+	width: 110pt
+	height: 2px
+	margin: auto
+
+nav
+	opacity: 0.9
+	transition: 0.5s
+	z-index: 1
+	position: fixed
+	margin: 0
+	text-align: center
+	//li:first-child
+	//	margin-right: 40px
+	//li
+	//	display: inline-block
+	//	margin: 5px 30px
+	background-color: #f3f1ec
+	width: 100%
+	ul
+		width: 100%
+		margin: 0 auto
+		padding: 0
+		
+		li
+			list-style: none
+			display: inline-block
+			padding: 20px
+			&:hover
+	.toggle
+			width: 100%
+			padding: 10px 20px
+			text-align: right
+			box-sizing: border-box
+			font-size: 30px
+			display: none
+header
+	min-height: 240px
+	.row
+		margin-top: 80px
+	
+	li
+		text-transform: uppercase
+		font-family: 'MyriadProRegular', 'sains-serif'
+		list-style-type: none
+		font-size: 14px
+		color: $text-color
+		font-weight: bold
+		line-height: auto
+		
+
+
+
+	.header_items
+		display: inline-block
+		&.contact
+			line-height: 20px
+			text-align: right
+
+		margin: 45px 0 45px 
+
+	.logo  
+		margin-top: 30px
+		text-align: center
+		height: 115px
+		width: 100%
+		background: url(../img/logo.png)
+			size: 300px auto 
+			repeat: no-repeat
+			position: center center
+		p
+			font-size: 12px
+			margin-top: 10px
+		h3 
+			font-family: 'Yellowtail', serif;
+			font-size: 44px
+			margin: 0
+			line-height: 35px
+			font-weight: normal
+			color: #434343
+
+.header_img
+	.button
+		margin-top: 30px
+	.button_white_top
+		position: absolute
+		top: -6px
+		right: 0
+		left: 0
+		margin: 0 auto
+	//background: url(../img/img_1.png)
+	background-position: center
+	background-size: cover
+	min-height: 770px
+	min-width: 100%
+	position: relative
+	
+	text-transform: uppercase
+	font-weight: bold
+	color: #fff
+	background-color: #000
+	text-align: center
+	.button_white
+		position: absolute;
+		bottom: -4px
+		right: 0
+		left: 0
+		margin: 0 auto 
+
+.top_hed
+	background-color: #fff
+	width: 110pt
+	height: 2px
+	margin: auto
+	left: 1%
+.text
+	font-size: 60px
+	margin-top: 170px
+	margin-bottom: 25px
+	p
+		margin-top: 25px
+		margin-bottom: 25px
+	
+
+
+section.welcom
+	min-height: 1030px
+	position: relative
+
+	.welcPhoto
+		text-align: center
+		.photo
+			position: relative
+			div.text_pic
+				position: absolute
+				right: 0
+				left: 0
+				margin: calc(50% - 23px) auto
+				width: 150px
+				line-height: 35px
+    			
+			height: 470px
+			width: 100%
+			margin-top: 20px
+			font-family: 'Yellowtail', cursive;
+			font-size: 45px
+			color: #fff
+			.button_white
+					width: 84px
+					height: 35px
+					position: absolute;
+					bottom: -4px
+					right: 0
+					left: 0
+					margin: 0 auto 
+					line-height: 54px
+					font-size: 16px
+			&.pic1
+				background: url(../img/imgSecWel1.png)
+				background-color: #000
+				background-size: 120% auto
+				
+			&.pic2
+				background: url(../img/imgSecWel2.png)
+				background-color: #000
+				background-position: center top
+			&.pic3
+				background: url(../img/imgSecWel3.png)
+				background-color: #000
+				background-position: left center
+				background-size: 140% auto
+	.button
+		margin-top: 65px
+		margin-bottom: 50px
+	text-align: center
+.wrap_text
+	text-transform: capitalize
+	text-align: center
+	margin-top: 100px
+	background: url(../img/logo_1.png)
+	background-position: center top
+	background-repeat: no-repeat
+	background-size: 280px auto
+	.catering
+		text-transform: uppercase
+		font-size: 14px
+		color: $text-color
+		font-weight: bold
+		
+	.welcom_p
+		font-size: 30px
+		color: #434343
+		font-weight: bold
+		margin: 0 auto
+		width: 25%
+
+		.bottom_hed
+			margin-top: 45px
+			background-color: $text-color
+			margin-bottom: 60px
+
+
+//============================================================SHORT=STORY==========================================================
+section.shortStory
+	height: 700px
+	background: url(../img/shortStory.png)
+	background-color: #000
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	color: #fff
+
+	.wrap_text
+		text-align: center
+		margin-top: 100px
+		background: url(../img/logo_2.png)
+		background-position: center top
+		background-repeat: no-repeat
+		background-size: 280px auto
+		.catering
+			color: #dcdcdc
+			
+		.welcom_p
+			font-size: 30px
+			color: #fff
+
+
+			.bottom_hed
+				background-color: #fff
+	.shortStoryContainer
+		
+		top: 330px
+		.col-md-6, .col-sm-6, 
+			padding: 0
+
+		.shortStoryContainer_img
+			height: 540px
+			background: url(../img/shortStoryContainer_img.png)
+			width: 100%
+			background-color: #767676
+			background-position: center center
+		.shortStoryText
+			position: relative
+			background-color: #fff
+			height: 540px
+			width: 100%
+			font-family: 'PT Serif', serif;
+			h3
+				margin-top: 100px
+				font-size: 22px
+				line-height: 33px
+				color: #808369
+				font-weight: bold
+				margin-bottom: 30px
+			p
+				span
+					font-weight: bold
+					font-size: 28px
+					color: #434343
+					margin: 0
+				font-size: 14px
+				color: #929292
+				font-weight: 1px
+				margin: 0
+
+			.button
+				position: absolute
+				left: 15px
+				margin-top: 0px
+	.btn
+		margin-top: 30px
+
+//=========================================================OUR=MENU=======================================================================
+
+section.ourMenu
+	min-height: 1030px
+	background-color: #f3f1ec
+	color: #808369
+	.wrap_text
+		margin-top: 255px
+		.bottom_hed
+			margin-top: 55px
+	.ourMenuPhotoBlock
+		position: relative
+		width: 100%
+		height: 270px
+		background-color: #fff
+		text-align: center
+		margin-top: 10px
+		.img
+			position: absolute
+			height: 160px
+			width: 92%
+			background-color: #000
+			right: 4%
+			top: 4%
+			bottom: 30px
+
+			&.pic1
+				background: url(../img/ourMenu1.png)
+				background-size: 150%
+				background-position: bottom center
+			&.pic2
+				background: url(../img/ourMenu2.png)
+				background-size: 150%
+				background-position: bottom center
+			&.pic3
+				background: url(../img/ourMenu3.png)
+				background-size: 150%
+				background-position: bottom center
+			&.pic4
+				background: url(../img/ourMenu4.png)
+				background-size: 150%
+				background-position: top right
+		.ourMenuPhotoBlockText
+			position: relative
+			top: 205px
+			font-size: 16px
+			font-weight: normal
+			text-transform: uppercase
+			p
+				margin: 0
+				letter-spacing: 2px
+		.button_white
+			position: absolute;
+			bottom: -4px
+			right: 0
+			left: 0
+			margin: 0 auto 
+			background-color: #f3f1ec
+			width: 40px
+			height: 20px
+			line-height: 4px
+	text-align: center
+	.ourMenuTextBottom
+		position: relative
+		font-size: 20px
+		line-height: 35px
+		font-weight: bold
+		top: 55px
+		margin-bottom: 110px
+	.button
+		margin-bottom: 50px
+
+
+//===============================================================SERVICES================================================================================
+section.services
+	position: relative
+	background-color: #fff
+	min-height: 990px
+	color: #808369
+	text-align: center
+	.col-md-4, .col-md-3, .col-md-1, .col-md-10, .col-md-9
+		padding: 0
+		margin: 0
+	.servicesBackground
+		margin-top: 25px
+		background: url(../img/services.png)
+		height: 400px
+		width: 100%
+		background-position: center center
+		border-radius: 50%
+		margin-bottom: 20px
+
+	.textHeadServ
+		position: absolute
+		right: 10px
+		margin-top: 10px
+		font-size: 18px
+		text-align: right
+		text-transform: uppercase
+		padding-bottom: 14px 
+		font-weight: bold
+	.textDescription
+		margin-top: 20px
+		padding: 0
+		line-height: 24px
+		text-align: right
+	.number
+		font-size: 40px
+		color: #eae7e0
+
+	.left
+		.leftOne 
+			height: 150px
+		.leftTwo
+			height: 150px
+		.leftThree
+			height: 150px
+		.number
+			margin-left: 15px
+
+	.right
+		position: relative
+		text-align: center
+		.number
+			position: absolute
+			margin-left: 20px
+
+		.textHeadServ
+			position: absolute
+			text-align: left
+			left: 10px
+			padding-bottom: 14px 
+		.textDescription
+			text-align: left
+			margin-top: 70px
+
+		.rightOne 
+			height: 150px
+		.rightTwo
+			height: 150px
+		.rightThree
+			height: 150px
+	.button
+		margin-top: 20px
+		margin-bottom: 40px
+	.wrap_services
+		margin-bottom: 40px
+	.hr
+		height: 2px
+		width: 100px
+		background-color: #808369
+		margin-top: 15px
+
+//========================================================bookToday====================================================================================
+section.bookToday
+	min-height: 695px
+	background: url(../img/bookTodayBackground.png)
+	background-color: #000
+	background-position: center top
+	background-size: cover
+	text-align: center
+	.wrap_text
+		text-transform: uppercase
+		text-align: center
+		margin-top: 100px
+		background: url(../img/logo_2.png)
+		background-position: center top
+		background-repeat: no-repeat
+		background-size: 280px auto
+		margin-top: 190px
+
+		.catering
+			color: #fff
+			
+		.welcom_p
+
+			width: 43%
+			color: #fff
+
+			.bottom_hed
+				margin-top: 50px
+				margin-bottom: 60px
+				background-color: #fff
+
+//=====================================================testimionials===================================================================
+section.testimionials
+	min-height: 695px
+	.row
+		overflow: hidden
+	background-color: #f3f1ec
+	color: #808369
+	.wrap_text
+		.welcom_p
+			.bottom_hed
+				margin-bottom: 80px
+	.owl-stage-outer
+		overflow: visible
+	.owl-carousel
+		.circle
+			top: - 5px
+			position: absolute
+			width: 112px
+			height: 56px
+			border-radius: 0 0 50% 50% / 0 0 100% 100%;
+			background-color: #f3f1ec
+			left: calc(50% - 56px)
+			
+
+			div.testimionialsImage
+				background: url(../img/testimionialsImage1.png)
+					position: 10% 40%
+				height: 90px
+				width: 90px
+				border-radius: 50%
+				position: absolute
+				top: -42px
+				right: 11px
+
+		background:
+			color: #fff
+		min-height: 260px
+		text-align: center
+		.review_item
+			
+			h4
+				font-size: 20px
+				line-height: 33px
+				margin-top: 90px
+				margin-bottom: 10px
+
+		.owl-next
+			position: absolute
+			background-color: #f3f1ec
+			right: 0
+			height: 66px
+			width: 30px
+			border-radius: 100% 0 0 100% / 50% 0 0 50%;
+			font-size: 30px
+			vertical-align: middle
+			text-align: right
+			top: calc(50% - 33px)
+
+		.owl-prev
+			position: absolute
+			background-color: #f3f1ec
+			left: 0
+			height: 66px
+			width: 30px
+			font-size: 30px
+			border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+			top: calc(50% - 33px)
+			text-align: left
+
+
+
+
+//================================================
+section.blog
+	min-height: 850px
+
+	.wrap_text
+		.welcom_p
+			.bottom_hed
+				margin-top: 50px
+	text-align: center
+	.imgBlog
+		height: 200px
+		max-width: 100%
+		background-color: #000
+		
+		&.pic1
+			background: url(../img/imgBlog1.png)
+			background-size: 120%
+			background-position: right top
+		&.pic2
+			background: url(../img/imgBlog2.png)
+			background-size: 170%
+			background-position: center center
+		&.pic3
+			background: url(../img/imgBlog3.png)
+			background-size: 160%
+			background-position: bottom center
+	.textBlogDate
+		margin-top: 35px
+		color: #808369
+		font-size: 14px
+		font-weight: bold
+	h4.textBlog
+		font-size: 22px
+		line-height: 33px
+		color: #434343
+		margin-top: 15px
+		margin-bottom: 30px
+	.hr
+		width: 110px
+		height: 2px
+		background-color: #808369
+		margin-left: calc(50% - 55px)
+		margin-bottom: 50px
+	.button
+		margin-bottom: 50px
+
+//==============================================================CHEF=============================================
+section.chef
+	height: 695px
+	background: url(../img/chefBackground.png)
+	background-color: #000
+	background-size: cover
+	background-position: center top
+
+	.wrap_text
+		margin-top: 0px
+		background: url(../img/logo_2.png)
+		background-position: center top
+		background-repeat: no-repeat
+		background-size: 280px auto
+		margin-top: 110px
+		.catering
+			color: #fff
+		.welcom_p
+			color: #fff
+			.bottom_hed
+				background-color: #fff
+	.chefBloks
+		width: 100%
+		.chefBloksImage
+			background: url(../img/chefBloksimage1.png)
+			height: 545px
+		.chefBloksText
+			background-color: #fff
+			min-height: 545px
+			.chefBloksTextBox
+				margin-top: 75px
+				background: url(../img/chefBloksTextBox.png)
+					repeat: no-repeat
+				p
+					font-size: 14px
+					line-height: 24px
+					color: #b3b3b3
+					display: inline-block
+					margin: 0
+				.hr
+					width: 110px
+					height: 2px
+					background-color: #808369
+					margin-top: 40px
+				h4
+					font-size: 20px
+					line-height: 33px
+					color: #808369
+					display: inline-block
+					margin:
+						top: 40px
+						bottom: 55px
+						right: 7px
+
+
+//=====================================================STAFF=======================================================
+section.staff
+	background-color: #f3f1ec
+	min-height: 900px
+	text-align: center
+	color: #808369
+	.wrap_text
+		margin-top: 280px
+	.staffImg
+		width: 100%
+		height: 250px
+		background-color: black
+		border-radius: 50%
+		//@for $i from 1 to 5======================================================================
+		//	&.pic#{$i}=============================================================================
+		&.pic1
+			background: url(../img/staffImg1.png)
+				position: 50% 0%
+		&.pic2
+			background: url(../img/staffImg2.png)
+				position: 50% 20%
+		&.pic3
+			background: url(../img/staffImg3.png)
+				position: 40% 10%
+		&.pic4
+			background: url(../img/staffImg4.png)
+				position: 80% 20%
+	h4
+		font-size: 20px
+		line-height: 35px
+		margin: 0px
+			top: 50px
+		padding: 0
+		display: inline-block
+
+	p
+		margin: 0
+			bottom: 15px
+		padding: 0
+		line-height: 24px
+
+//==================================================================Gallery
+
+section.gallery
+	min-height: 1300px
+	text-align: center
+	.common
+		margin: 0
+		padding: 0
+		min-height: 760px
+		width: 100%
+		.one, .two, .three, .four
+			
+			height: 365px
+			width: 100%
+			margin: 0px
+			padding: 0
+			margin-bottom: 30px
+		.one
+			background: url(../img/gallery1.png)
+				position: center center
+				size: 120%
+			background-color: #000
+		.two
+			background: url(../img/gallery2.png)
+				position: center center
+				size: 120%
+			background-color: #000
+		.three
+			background: url(../img/gallery3.png)
+				position: center center
+				size: 120%
+			background-color: #000
+		.four
+			background: url(../img/gallery4.png)
+				size: 120%
+
+			background-color: #000
+	.col-md-9
+		padding: 0
+	.five
+		width: 100%
+		height: 760px
+		background: url(../img/gallery5.png)
+			position: 70% 50%
+		background-color: #000	
+
+	.button
+		margin-top: 40px
+		margin-bottom: 20px
+
+//===========================================================CONTACT=US================================================
+section.contactUs
+	min-height: 860px
+	position: relative
+	background-color: #f3f1ec
+	color: #808369
+	form
+		text-align: center
+		input
+			display: inline
+			height: 70px
+			border: none
+			width: 48%
+				
+
+			margin: 0
+			margin-bottom: 30px
+			padding-left: 4%
+			&.name
+				margin-right: 3%
+			&::placeholder
+				font-weight: bold	
+		textarea
+			display: block
+			width: 100%
+			height: 210px
+			background: #fff
+			border: none
+		
+			padding-left: 4%
+			padding-top: 4%
+			&::placeholder
+				font-weight: bold	
+
+		.button
+			margin-top: 50px
+			margin-bottom: 70px
+	.button_white
+		position: absolute
+		bottom: 0
+		width: 116px
+		right: calc(50% - 58px)
+
+
+footer
+	min-height: 430px
+	color: #808369
+	h4
+		margin-top: 6px
+		font-size: 12px
+		font-weight: normal
+		text-align: center
+	.container-fluid
+		margin-top: 105px
+	p
+		font-size: 14px
+		line-height: 20px
+		margin: 0
+		font-weight: bold
+		&.left
+			text-align: right 
+		&.right
+			text-align: left
+	.logo 
+		text-align: center
+		position: relative
+		height: 115px
+		width: 100%
+		background: url(../img/logo.png)
+			size: 300px auto 
+			repeat: no-repeat
+			position: center center
+		p
+			font-size: 12px
+			margin-top: 10px
+		h3 
+			font-family: 'Yellowtail', serif;
+			font-size: 44px
+			margin: 0
+			line-height: 35px
+			font-weight: normal
+			color: #434343
+	.textBlock
+		height: 50px
+		margin-top: 35px
+
+
+	.callback
+		margin-top: 60px
+		height: 45px
+		width: 100%
+		color: white
+		text-align: center
+		.circle
+			text-align: center
+			width: 44px
+			height: 44px
+			border-radius: 50%
+			background-color: #a7a99a
+			display: inline-block
+			font-size: 16px
+			transition: 0.5s 
+			a
+				color: white
+				margin-top: 13px
+				padding: 0
+			&:hover
+				background-color: #ffb18b
+				transition: 0.5s 
+
+																	
+	h5
+		text-align: center
+		font-size: 14px
+		font-weight: normal
+		margin-top: 50px
+
+//5:00:00 popup
