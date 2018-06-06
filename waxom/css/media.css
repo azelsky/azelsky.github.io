@@ -1,0 +1,18 @@
+@media only screen and (max-width : 1200px) {
+	.header nav ul li{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.header nav ul li:nth-child(1){
+		margin-left: 25px;
+	}
+}
+@media only screen and (max-width : 992px) {
+
+	.header .menu_container_logo{
+		width: 100%
+	}
+	.header .menu_container_text{
+		width: 100%
+	}
+}
